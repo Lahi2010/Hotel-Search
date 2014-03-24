@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+
+body{margin:0;padding:0;font-family: 'Open Sans', sans-serif;}
+.container{
+	background-size: 100% 1000px;
+background-repeat: no-repeat;
+width: 940px;
+margin: 0 auto;
+background-color: white;
+padding-left: 10px;
+padding-right: 10px;
+box-shadow: 0px 5px 10px 5px gainsboro;
+border-left-width: 1px;
+border-left-color: #d8dcdf;
+border-left-style: solid;
+border-right-width: 1px;
+border-right-color: #d8dcdf;
+border-right-style: solid;
+min-height:800px;
+	}
+	.search_wrapper{width:1080px; height:74px; margin:0 auto; background:#F9A404; position:relative;}
+	.col{width:180px;height:70px; float:left; padding:10px;}
+	.col-2{width:337px;height:70px; float:left; padding:10px;}
+	.col-2 span{line-height:50px;padding-left:10px;}
+	.col-2-search{width:60px;height:70px; float:left; padding:10px;}
+	.search_txt{ border:none; border-radius:0px; width:100%; height:50px; outline:none; text-indent:4px; }
+	.calender{background-image:url(../images/calender_icon.png); background-repeat:no-repeat; background-position:center right;}
+	.search_dropdown{ border:none; border-radius:0px; width:100%; height:50px;outline:none;}
+	.search_button{ border:none; border-radius:0px; width:100%; height:50px;outline:none;background-color: #B63A00;
+color: #FFF;}
+.search_icon_btn{width:50px; height:50px;outline:none;background-color: #B63A00;
+color: #FFF;border:none; border-radius:0px;  background-image:url(../images/search_icon.png); background-repeat:no-repeat;}
+
+#after_search{position:absolute;z-index:1;}
+
+#before_search{ position:absolute;z-index:2; }
+
+	
