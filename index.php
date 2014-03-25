@@ -139,7 +139,7 @@ $(document).ready(function() {
 </div>
 
 <div class="col"><input type="submit" name="Search" id="Search" value="Search" class="search_button">
-<div class="exis_search" id="back_search"><a href="#">Use Existing Search</a></div>
+
 
 <div class="clearfix"></div></div>
 
