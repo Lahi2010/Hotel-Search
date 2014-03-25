@@ -23,10 +23,13 @@ min-height:800px;
 	}
 	.search_wrapper{width:1080px; height:74px; margin:0 auto; background:#F9A404; position:relative;}
 	.col{width:180px;height:70px; float:left; padding:10px;}
-	.col-2{width:337px;height:70px; float:left; padding:10px;}
+	.col_med{width:360px;height:70px; float:left; padding:10px 0 10px 0;}
+	.col-2{width:337px;height:70px; float:left; padding:10px;line-height: 60px;}
 	.col-2 span{line-height:50px;padding-left:10px;}
-	.col-2-search{width:60px;height:70px; float:left; padding:10px;}
+	.col-2-search{width:60px;height:70px; float:left; padding:10px;line-height: 92px;}
 	.search_txt{ border:none; border-radius:0px; width:100%; height:50px; outline:none; text-indent:4px; }
+	.cal_txt{border:none; border-radius:0px; width:160px; height:50px; outline:none; text-indent:4px; margin-right: 5px;
+margin-left: 10px;}
 	.calender{background-image:url(../images/calender_icon.png); background-repeat:no-repeat; background-position:center right;}
 	.search_dropdown{ border:none; border-radius:0px; width:100%; height:50px;outline:none;}
 	.search_button{ border:none; border-radius:0px; width:100%; height:50px;outline:none;background-color: #B63A00;
@@ -37,5 +40,15 @@ color: #FFF;border:none; border-radius:0px;  background-image:url(../images/sear
 #after_search{position:absolute;z-index:1;}
 
 #before_search{ position:absolute;z-index:2; }
+.exis_search a{text-decoration: none;
+margin-top: 12px;
+display: block;
+float: right;
+font-weight: bolder;
+font-size: 13px;}
+.exis_search a:hover{text-decoration: none;}
+.all_search_wrap{ position:relative; width:100%; height:70px; margin-bottom:25px;}
+
+.dummy{width:100%; height:200px;}
 
 	
